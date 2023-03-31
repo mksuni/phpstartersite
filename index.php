@@ -1,4 +1,6 @@
     <?php 
+        error_reporting(-1);
+        ini_set('display_errors', 'On');
         require_once ("Includes/simplecms-config.php"); 
         require_once  ("Includes/connectDB.php");
         include("Includes/header.php");         
