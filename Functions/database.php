@@ -1,5 +1,5 @@
 <?php
-    require_once (_._DIR__"../Includes/simplecms-config.php");
+    require_once ( __DIR__. "../Includes/simplecms-config.php");
 
     function prep_DB_content ()
     {
