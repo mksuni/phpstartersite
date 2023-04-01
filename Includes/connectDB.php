@@ -1,5 +1,6 @@
 <?php
    // require_once ("/Includes/simplecms-config.php");
+    echo dirname(__FILE__);
     require_once ("./simplecms-config.php");
     require_once ("../Functions/database.php");
 
