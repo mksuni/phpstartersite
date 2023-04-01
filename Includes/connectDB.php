@@ -1,8 +1,8 @@
 <?php
    // require_once ("/Includes/simplecms-config.php");
-    echo dirname(__FILE__);
-    require_once ("./simplecms-config.php");
-    require_once ("../Functions/database.php");
+    $filepath = dirname(__FILE__, 2);
+    require_once ($filepath."/Includes/simplecms-config.php");
+    require_once ($filepath."/Functions/database.php");
 
     // Create database connection
     $databaseConnection = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
